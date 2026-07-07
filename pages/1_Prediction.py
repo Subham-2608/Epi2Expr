@@ -48,7 +48,7 @@ with col1:
 with col2:
     st.markdown(
         "<h1 style='text-align:center;'>"
-        "Epi2Expr: A stacking ensemble web server for predicting gene expression from epigenetic modifications"
+        "Epi2Expr: A stacking ensemble web server for predicting gene expression from epigenetic modification"
         "</h1>",
         unsafe_allow_html=True,
     )
