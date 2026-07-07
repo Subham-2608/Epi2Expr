@@ -2,7 +2,7 @@ import streamlit as st
 import datetime
 import os
 
-st.set_page_config(page_title="EpiStackXpress", initial_sidebar_state="expanded", layout="wide")
+st.set_page_config(page_title="Epi2Expr", initial_sidebar_state="expanded", layout="wide")
 
 
 # Visitor counter — stored in a text file
@@ -74,7 +74,7 @@ with col1_1:
         "</p>",
         unsafe_allow_html=True
     )
-    st.header("About EpiStackXpress")
+    st.header("About Epi2Expr")
     st.markdown(
         "<p style='text-align: justify;'>"
         "Epi2Expr is a machine learning based web server for predicting gene expression "
