@@ -83,7 +83,7 @@ with col1_1:
         "Gradient Boosting (XGBoost) with a Ridge regression meta-learner. The server supports "
         "prediction under two experimental conditions — control and treatment- "
         "enabling researchers to study epigenetic regulation of gene expression "
-        "in rice and related plants under biotic as wll as abiotic stress."
+        "in rice and related plants under biotic as well as abiotic stress."
         "</p>",
         unsafe_allow_html=True
     )
