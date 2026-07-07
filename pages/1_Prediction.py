@@ -34,7 +34,7 @@ MODEL_REGISTRY = {
 # Page config
 # ─────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="EpiStackXpress: Epigenetic Stacking Ensemble for Gene eXpression",
+    page_title="Epi2Expr: A stacking ensemble web server for predicting gene expression from epigenetic modification",
     initial_sidebar_state="expanded",
     layout="wide",
 )
@@ -48,7 +48,7 @@ with col1:
 with col2:
     st.markdown(
         "<h1 style='text-align:center;'>"
-        "EpiStackXpress: Epigenetic Stacking Ensemble for Gene eXpression"
+        "Epi2Expr: A stacking ensemble web server for predicting gene expression from epigenetic modifications"
         "</h1>",
         unsafe_allow_html=True,
     )
