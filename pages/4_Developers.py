@@ -122,7 +122,7 @@ with col2_1:
             st.image("static/images/Girish.jpg")
         with colInCon_2:
             st.markdown('''**Dr. Girish Kumar Jha**   
-                        Principal Scientist & Head, 
+                        Principal Scientist & Head,  
                         Division of Agricultural Bioinformatics  
                         ICAR-Indian Agricultural Statistics Research Institute  
                         Pusa, New Delhi-110012, India.  
