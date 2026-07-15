@@ -115,7 +115,7 @@ with col2_1:
                         Division of Agricultural Bioinformatics  
                         ICAR-Indian Agricultural Statistics Research Institute  
                         Pusa, New Delhi-110012, India.  
-                        Contact mail: monendra.grover@icar.gov.in''')
+                        Contact mail: monendra.grover@gmail.com''')
     # with st.container(border=True):
     #     colInCon_1, colInCon_2 = st.columns([1, 3])
     #     with colInCon_1:
