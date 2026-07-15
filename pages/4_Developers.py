@@ -104,6 +104,17 @@ with col2_1:
                         ICAR-Indian Agricultural Statistics Research Institute  
                         Pusa, New Delhi-110012, India.  
                         Contact mail: dwij.mishra@gmail.com''')
+    with st.container(border=True):
+        colInCon_1, colInCon_2 = st.columns([1, 3])
+        with colInCon_1:
+            st.image("static/images/Girish.jpeg")
+        with colInCon_2:
+            st.markdown('''**Dr. Girish Kumar Jha**  
+                        Senior Scientist  
+                        Principal Scientist & Head, Division of Agricultural Bioinformatics  
+                        ICAR-Indian Agricultural Statistics Research Institute  
+                        Pusa, New Delhi-110012, India.  
+                        Contact mail: girish.jha@icar.org.in''')
             
     with st.container(border=True):
         colInCon_1, colInCon_2 = st.columns([1, 3])
