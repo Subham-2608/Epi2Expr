@@ -104,6 +104,7 @@ with col2_1:
                         ICAR-Indian Agricultural Statistics Research Institute  
                         Pusa, New Delhi-110012, India.  
                         Contact mail: dwij.mishra@gmail.com''')
+            
      with st.container(border=True):
         colInCon_1, colInCon_2 = st.columns([1, 3])
         with colInCon_1:
