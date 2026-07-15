@@ -128,17 +128,7 @@ with col2_1:
                         Pusa, New Delhi-110012, India.  
                         Contact mail: girish.jha@icar.org.in''')
             
-    with st.container(border=True):
-        colInCon_1, colInCon_2 = st.columns([1, 3])
-        with colInCon_1:
-            st.image("static/images/Monendra_grover.jpeg")
-        with colInCon_2:
-            st.markdown('''**Dr. Monendra Grover**  
-                        Principal Scientist  
-                        Division of Agricultural Bioinformatics  
-                        ICAR-Indian Agricultural Statistics Research Institute  
-                        Pusa, New Delhi-110012, India.  
-                        Contact mail: monendra.grover@icar.gov.in''')
+
 
 
 st.text("")
