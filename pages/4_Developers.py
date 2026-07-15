@@ -66,8 +66,6 @@ with col1_1:
                         Pusa, New Delhi-110012, India.  
                         Contact mail: angadiub@gmail.com''')
 
-
-
 with col2_1:
     with st.container(border=True):
         colInCon_1, colInCon_2 = st.columns([1, 3])
