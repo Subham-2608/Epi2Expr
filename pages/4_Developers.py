@@ -65,6 +65,17 @@ with col1_1:
                         ICAR-Indian Agricultural Statistics Research Institute,  
                         Pusa, New Delhi-110012, India.  
                         Contact mail: angadiub@gmail.com''')
+    with st.container(border=True):
+        colInCon_1, colInCon_2 = st.columns([1, 3])
+        with colInCon_1:
+            st.image("static/images/Monendra_grover.jpeg")
+        with colInCon_2:
+            st.markdown('''**Dr. Monendra Grover**  
+                        Principal Scientist  
+                        Division of Agricultural Bioinformatics  
+                        ICAR-Indian Agricultural Statistics Research Institute  
+                        Pusa, New Delhi-110012, India.  
+                        Contact mail: monendra.grover@gmail.com''')
 
 with col2_1:
     with st.container(border=True):
@@ -105,28 +116,19 @@ with col2_1:
                         Pusa, New Delhi-110012, India.  
                         Contact mail: dwij.mishra@gmail.com''')
             
+
     with st.container(border=True):
         colInCon_1, colInCon_2 = st.columns([1, 3])
         with colInCon_1:
-            st.image("static/images/Monendra_grover.jpeg")
+            st.image("static/images/Girish_sir_final.jpg")
         with colInCon_2:
-            st.markdown('''**Dr. Monendra Grover**  
-                        Principal Scientist  
+            st.markdown('''**Dr. Girish Kumar Jha**   
+                        Principal Scientist & Head,  
                         Division of Agricultural Bioinformatics  
                         ICAR-Indian Agricultural Statistics Research Institute  
                         Pusa, New Delhi-110012, India.  
-                        Contact mail: monendra.grover@gmail.com''')
-    # with st.container(border=True):
-    #     colInCon_1, colInCon_2 = st.columns([1, 3])
-    #     with colInCon_1:
-    #         st.image("static/images/Girish_sir_final.jpg")
-    #     with colInCon_2:
-    #         st.markdown('''**Dr. Girish Kumar Jha**   
-    #                     Principal Scientist & Head,  
-    #                     Division of Agricultural Bioinformatics  
-    #                     ICAR-Indian Agricultural Statistics Research Institute  
-    #                     Pusa, New Delhi-110012, India.  
-    #                     Contact mail: girish.jha@icar.org.in''')
+                        Contact mail: girish.jha@icar.org.in''')
+    
             
 
 
