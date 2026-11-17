@@ -164,12 +164,9 @@ with col_upload:
                 np.column_stack([svm_pred, xgb_pred])
             )
 
-        # Replace negative predictions with random value between 0.01 and 0.03
-        adjusted_pred = np.where(
-            stack_pred < 0,
-            np.random.uniform(0.001, 0.003, size=stack_pred.shape),
-            stack_pred
-            )
+        # Deterministic rule: log2(FPKM + 1) cannot be negative, so negative
+        # ensemble outputs are reported as 0 (prediction = max(output, 0))
+        adjusted_pred = np.maximum(stack_pred, 0.0)
 
         result_df = pd.DataFrame({
             "Predicted gene expression log₂(FPKM + 1)": adjusted_pred.round(4),
